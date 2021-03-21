@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+h1.my-name{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5.625rem;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+p.my-description{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
+    color: #7FFF00;
+}
+p{
+    font-family: 'Philosopher', sans-serif;
+    line-height: 2;
+}
+span{
+    font-weight: normal;
+    line-height: 2;
+}
+h1,h2{
+    color: #FF4500;
+    font-family: 'Fredoka One', cursive;
+}
+h3{
+    color: #4682B4;
+}
+a{
+    color: #11999E;
+}
+div{
+
+}
+div.top-container{
+    background-color: whitesmoke;
+    position: relative;
+    padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+img.top-clouds{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 5px;
+    right: 350px;
+    border-radius: 50%;
+}
+img.bottom-clouds{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 458px;
+    left: 350px;
+    border-radius: 50%;
+}
+img.mountains{
+    width: 600px;
+    height: 400px;
+    margin-top: 168px;
+}
+img.my-photo{
+    width: 250px;
+    height: 250px;
+}
+div.profile{
+    width: 50%;
+    margin: 0 auto;
+}
+p.profile-para{
+    text-align: center;
+}
+div.skill-row1{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+div.skill-row2{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 45px;
+}
+div.skill-row3{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+    margin-bottom: 120px;
+}
+img.first-skill{
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 50%;
+    background-color: black;
+    border: 4px solid red;
+    margin-right: 30px;
+}
+img.second-skill{
+    width: 250px;
+    height: 250px;
+    float: right;
+    border-radius: 50%;
+    background-color: black;
+    border: 4px solid red;
+    margin-left: 30px;
+}
+img.third-skill{
+    width: 250px;
+    height: 250px;
+    float: left;
+    border-radius: 50%;
+    background-color: black;
+    border: 4px solid red;
+    margin-right: 30px;
+}
+h3.html-heading{
+    padding-top: 65px;
+}
+h3.css-heading{
+    padding-top: 70px;
+}
+h3.javascript-heading{
+    padding-top: 70px;
+}
+span.underline{
+    text-decoration: underline;
+}
+hr{
+    border: 6px dotted 	#B0C4DE;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto;
+}
+div.contact-me{
+    width: 50%;
+    margin: 0 auto;
+}
+a.btn{
+    background: #FFFFFF;
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #B9B9B9);
+    background-image: -moz-linear-gradient(top, #FFFFFF, #B9B9B9);
+    background-image: -ms-linear-gradient(top, #FFFFFF, #B9B9B9);
+    background-image: -o-linear-gradient(top, #FFFFFF, #B9B9B9);
+    background-image: -webkit-gradient(to bottom, #FFFFFF, #B9B9B9);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #FF4500;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-box-shadow: inset 1px 1px 10px 2px #000000;
+    -moz-box-shadow: inset 1px 1px 10px 2px #000000;
+    box-shadow: inset 1px 1px 10px 2px #000000;
+    text-shadow: 1px 2px 0 #99C624;
+    border: solid #000000 3px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    margin-bottom: 30px;
+ }
+ a.btn:hover{
+    border: ridge #000000 5px;
+    background: #131A22;
+    background-image: -webkit-linear-gradient(top, #131A22, #0B2E56);
+    background-image: -moz-linear-gradient(top, #131A22, #0B2E56);
+    background-image: -ms-linear-gradient(top, #131A22, #0B2E56);
+    background-image: -o-linear-gradient(top, #131A22, #0B2E56);
+    background-image: -webkit-gradient(to bottom, #131A22, #0B2E56);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+ }
+ img.contact-img{
+     width: 30px;
+     height: 30px;
+     padding: 10px 20px 10px 20px;
+ }
+ img.contact-img:nth-last-child(){
+     padding-right: none;
+ }
+ div.bottom-container{
+     background-color: rgb(1, 5, 37);
+     padding-top: 20px;
+     color: white;
+     margin-bottom: 0;
+ }

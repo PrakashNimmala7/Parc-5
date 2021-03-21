@@ -1,0 +1,30 @@
+body{
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
+    border: 5px solid black;
+    border-style: outset;
+    border-radius: 30px;
+    background-color: chartreuse;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color:cornsilk;
+    margin-top: 25%;
+}
+button:hover{
+    background-color: black;
+    color: gold;
+}
+button:active{
+    background-color: honeydew;
+    color: black;
+}

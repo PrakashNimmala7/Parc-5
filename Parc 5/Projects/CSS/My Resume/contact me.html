@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Contact Details</h1>
+        <h3>My Fictional Address</h3>
+        <h4>Phone Number:+91-9133229303</h4>
+        <h4>E-mail id:prakash.n046@gmail.com</h4>
+        <hr>
+    </header>
+    <main>
+        <h2>Please fill this up to contact me via mail:</h2>
+        <form action="mailto:prakash.n046@gmail.com" method="POST" enctype="text/plain">
+
+            <label for="Your Name">Your Name:</label>
+            <input type="text" name="Name" placeholder="abc" id="Your Name">
+            <br><br>
+            <label for="Company">Your Company:</label>
+            <input type="text" id="Company" name="Company" placeholder="Exp:HCL">
+            <br><br>
+            <label for="Location">Location:</label>
+            <input type="text" id="Location" name="Location" placeholder="Exp:Hyderabad">
+            <br><br>
+            <label for="Message">Your Message:</label>
+            <br>
+            <textarea id="Message" rows="10" cols="50" placeholder="Your message here"></textarea>
+            <br><br>
+            <button>Mail to me</button>
+        </form>
+    </main>
+</body>
+
+</html>
